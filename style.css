@@ -1,0 +1,59 @@
+body{
+    margin:0;
+    padding:0;
+    background-color:gold;
+}
+.container{
+    background-image: url('bg.edit.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width:600px;
+    box-shadow: 3px 4px 5px;
+    border-radius: 10px;
+    margin:auto;
+    padding: 40px;
+    
+}
+h1{
+    text-align: center;
+}
+
+input{
+    width:70%;
+    padding:10px;
+    border:1px solid gray;
+    margin-right:10px;
+    border-radius: 5px;
+    padding:15px;
+    font-size: larger;
+    border: 5px solid black;
+
+}
+input::placeholder{
+    color: black;
+
+}
+
+button{
+    font-size: xx-large;
+    background-color: orange;
+    color:white;
+    cursor:pointer;
+    border:none;
+    border-radius:5px;
+    padding:10px;
+}
+#todo-list{
+    font-size:xx-large;
+    color:black;
+    border: 5px solid black;
+    border-radius: 3px;
+}
+#todo-list li{
+    display:flex;
+    justify-content: space-between;
+
+}
+li{
+    padding:8px;
+}
